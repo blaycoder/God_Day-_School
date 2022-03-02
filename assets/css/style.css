@@ -114,10 +114,17 @@ p {
 	font-weight: 400;
 }
 img {
-	max-width: 60%;
+	max-width: 100%;
 	height: auto;
 	border: 0;
 }
+
+.atf-about-image img {
+	max-width:60%;
+	height:auto;
+	border:0;
+}
+
 a {
 text-decoration: none;
 transition: all 0.2s ease 0s;
